@@ -18,9 +18,6 @@ class Triangle extends Polygon {
 }
 
 class Square extends Polygon {
-   constructor(...args) {
-      super(...args);
-   }
    get isValid() {
       return this.polygon.every((elem) => elem == this.polygon[0]);
    }
